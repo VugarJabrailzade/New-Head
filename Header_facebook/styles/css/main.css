@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 56px;
+  background-color: #FBFBFB;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+.social_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.social_icon .facebook_icon {
+  font-size: 35px;
+  color: #4267B2;
+  margin-top: -2px;
+}
+.social_icon .search_icon {
+  background-color: #E2E6E9;
+  color: #A7B5BE;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header_middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+}
+.header_middle .home_icon, .header_middle .flag_icon {
+  font-size: 20px;
+  position: relative;
+}
+.header_middle .home_icon {
+  color: #4267B2;
+  border-bottom: 3px solid #4267B2;
+  padding: 6px;
+}
+.header_middle .image_icon1, .header_middle .image_icon2 {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.header_middle .bars_icon {
+  color: #28353D;
+  padding: 4px;
+}
+
+.header_middle span {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 8px;
+}
+
+.flag_icon {
+  color: rgba(2, 7, 11, 0.5764705882);
+}
+
+.image_icon1_badge, .flag_icon_badge {
+  position: absolute;
+  top: -7px;
+  right: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 16px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.header_left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.header_left .messenger, .header_left .arrow_down {
+  color: #000;
+  position: relative;
+}
+.header_left .plus_icon, .header_left .notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #28353D;
+  position: relative;
+}
+.header_left .plus_icon, .header_left .messenger, .header_left .notification, .header_left .arrow_down {
+  background-color: #E2E6E9;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.messenger_badge {
+  position: absolute;
+  top: -3px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 17px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.notification_badge {
+  position: absolute;
+  top: -3px;
+  right: -5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 17px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.header_left span {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+}
+
+.empty {
+  width: 100%;
+  height: 250px;
+}
+
+.container_dark {
+  width: 100%;
+  height: 56px;
+  background-color: #151D20;
+}
+
+.header_dark {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+}
+
+.social_icon_dark {
+  display: flex;
+  gap: 16px;
+}
+.social_icon_dark .facebook_icon_dark {
+  font-size: 35px;
+  color: #4267B2;
+  margin-top: -2px;
+}
+.social_icon_dark .search_icon {
+  background-color: #E2E6E9;
+  color: #A7B5BE;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header_middle_dark {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+.header_middle_dark .home_icon_dark, .header_middle_dark .flag_icon_dark {
+  font-size: 20px;
+  position: relative;
+}
+.header_middle_dark .home_icon_dark {
+  color: #4267B2;
+  border-bottom: 3px solid #4267B2;
+  padding: 6px;
+}
+.header_middle_dark .image_icon1_dark, .header_middle_dark .image_icon2_dark {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.header_middle_dark .bars_icon_dark {
+  color: white;
+  padding: 4px;
+}
+
+.header_middle_dark span {
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 8px;
+}
+
+.flag_icon_dark {
+  color: white;
+}
+
+.image_icon1_badge, .flag_icon_badge {
+  position: absolute;
+  top: -7px;
+  right: -15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20px;
+  height: 16px;
+  background-color: red;
+  border-radius: 50%;
+}
+
+.social_icon_dark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.social_icon_dark .facebook_icon_dark {
+  background-color: white;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  margin-top: 1px;
+}
+.social_icon_dark .facebook_icon_dark i {
+  font-size: 36px;
+}

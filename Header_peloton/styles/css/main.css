@@ -1,0 +1,213 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 78px;
+  background-color: #FBFBFB;
+  border-bottom: 2px solid #8A9CA7;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.social_icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 70px;
+}
+.social_icon .facebook, .social_icon .twitter, .social_icon .instagram, .social_icon .youtube {
+  font-size: 24px;
+  color: #8A9CA7;
+}
+
+.header_right {
+  display: flex;
+  gap: 24px;
+  margin-right: 70px;
+  position: relative;
+}
+.header_right .basket_badge {
+  position: absolute;
+  font-size: 14px;
+  top: -8px;
+  right: 35px;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+}
+.header_right .basket, .header_right .menu_bars {
+  font-size: 20px;
+  color: #8A9CA7;
+}
+
+.header_bottom {
+  display: flex;
+  width: 100%;
+  height: 56px;
+  background-color: #FBFBFB;
+  margin-top: 12px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.header_bottom a {
+  text-decoration: none;
+  padding-left: 64px;
+  color: #8A9CA7;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.search_right {
+  display: flex;
+}
+.search_right ::placeholder {
+  padding-left: 15px;
+}
+.search_right i {
+  position: absolute;
+  margin: -5px;
+  margin-left: -50px;
+}
+
+.search_input {
+  height: 40px;
+  width: 600px;
+  border-radius: 5px;
+  border: 1px solid #C6CDD5;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.button_search {
+  background: fixed;
+  border: none;
+  float: left;
+  display: block;
+  cursor: pointer;
+  color: #8A9CA7;
+}
+
+.empty {
+  width: 100%;
+  height: 250px;
+}
+
+.container2 {
+  width: 100%;
+  height: 78px;
+  background-color: #151D20;
+  border-bottom: 2px solid #8A9CA7;
+}
+
+.header_black {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.social_icon_black {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 70px;
+}
+.social_icon_black .facebook2, .social_icon_black .twitter2, .social_icon_black .instagram2, .social_icon_black .youtube2 {
+  font-size: 24px;
+  color: #8A9CA7;
+}
+
+.header_right_white {
+  display: flex;
+  gap: 24px;
+  margin-right: 70px;
+  position: relative;
+}
+.header_right_white .basket_badge {
+  position: absolute;
+  font-size: 14px;
+  top: -8px;
+  right: 35px;
+  height: 15px;
+  width: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+}
+.header_right_white .basket, .header_right_white .menu_bars {
+  font-size: 20px;
+  color: white;
+}
+
+.header_bottom_white {
+  display: flex;
+  width: 100%;
+  height: 56px;
+  background-color: #151D20;
+  margin-top: 12px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+}
+.header_bottom_white a {
+  text-decoration: none;
+  padding-left: 64px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.search_right_second {
+  display: flex;
+}
+.search_right_second ::placeholder {
+  color: #8A9CA7;
+  padding-left: 15px;
+}
+.search_right_second i {
+  position: absolute;
+  margin: -5px;
+  margin-left: -50px;
+}
+
+.search_input_second {
+  height: 40px;
+  width: 600px;
+  border-radius: 5px;
+  background-color: #151D20;
+  border: 1px solid #8A9CA7;
+  color: #8A9CA7;
+  font-size: 16px;
+  font-style: italic;
+}
+
+.button_search_second {
+  background: fixed;
+  border: none;
+  float: left;
+  display: block;
+  cursor: pointer;
+  color: #8A9CA7;
+}

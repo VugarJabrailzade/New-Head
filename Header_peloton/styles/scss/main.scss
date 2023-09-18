@@ -1,0 +1,210 @@
+$back_color: #FBFBFB;
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 78px;
+    background-color:$back_color;
+    border-bottom: 2px solid #8A9CA7;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.social_icon{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap:24px;
+    margin-left: 70px;
+    .facebook,.twitter,.instagram,.youtube{
+        font-size: 24px;
+        color: #8A9CA7;
+        
+    }
+}
+.header_right{
+    display: flex;
+    gap: 24px;
+    margin-right: 70px;
+    position: relative;
+    .basket_badge{
+        position: absolute;
+        font-size: 14px;
+        top: -8px;
+        right: 35px;
+        height: 15px;
+        width: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        
+    }
+    .basket,.menu_bars{
+        font-size: 20px;
+        color: #8A9CA7;
+    }
+}
+.header_bottom{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: $back_color;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    a{
+        text-decoration: none;
+        padding-left: 64px;
+        color:#8A9CA7;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+}
+.search_right{
+    display: flex;
+    ::placeholder{
+        padding-left: 15px;
+    }
+    i{
+        position: absolute;
+        margin:-5px;
+        margin-left: -50px; 
+    }
+}
+.search_input{
+    height: 40px;
+    width: 600px;
+    border-radius: 5px;
+    border: 1px solid #C6CDD5;
+    font-size: 16px;
+    font-style: italic;
+}
+.button_search{
+    background: fixed;
+    border: none;
+    float: left;
+    display:block;
+    cursor: pointer;
+    color: #8A9CA7;
+
+}
+
+$back_color_second: #151D20;
+
+.empty{
+    width: 100%;
+    height: 250px;
+}
+
+.container2{
+    width: 100%;
+    height: 78px;
+    background-color:$back_color_second;
+    border-bottom: 2px solid #8A9CA7;
+}
+ .header_black{
+    display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding-top: 20px;
+}
+
+.social_icon_black{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    gap:24px;
+    margin-left: 70px;
+    .facebook2,.twitter2,.instagram2,.youtube2{
+        font-size: 24px;
+        color: #8A9CA7;
+        
+    }
+}
+.header_right_white{
+    display: flex;
+    gap: 24px;
+    margin-right: 70px;
+    position: relative;
+    .basket_badge{
+        position: absolute;
+        font-size: 14px;
+        top: -8px;
+        right: 35px;
+        height: 15px;
+        width: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: red;
+        color: white;
+        border-radius: 50%;
+        
+}
+    .basket,.menu_bars{
+        font-size: 20px;
+        color: white;
+    }
+}
+.header_bottom_white{
+    display: flex;
+    width: 100%;
+    height: 56px;
+    background-color: $back_color_second;
+    margin-top: 12px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    a{
+        text-decoration: none;
+        padding-left: 64px;
+        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+}
+.search_right_second{
+    display: flex;
+    ::placeholder{
+        color: #8A9CA7;
+        padding-left: 15px;
+    }
+    i{
+        position: absolute;
+        margin:-5px;
+        margin-left: -50px; 
+    }
+}
+.search_input_second{
+    height: 40px;
+    width: 600px;
+    border-radius: 5px;
+    background-color: $back_color_second;
+    border: 1px solid #8A9CA7;
+    color: #8A9CA7;
+    font-size: 16px;
+    font-style: italic;
+}
+.button_search_second{
+    background: fixed;
+    border: none;
+    float: left;
+    display:block;
+    cursor: pointer;
+    color: #8A9CA7;
+
+}
